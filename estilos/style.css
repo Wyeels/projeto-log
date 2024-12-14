@@ -29,7 +29,7 @@ html, body {
 }
 
 main {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -123,5 +123,20 @@ main > section > p > a {
 }
 
 main > section > p > a:hover {
+    color: var(--cor-botao);
+}
+
+footer {
+    color: #1F2937;
+    font-size: .8em;
+    text-align: center;
+}
+
+footer > p > a {
+    color: #10B981;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
     color: var(--cor-botao);
 }

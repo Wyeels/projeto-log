@@ -14,3 +14,18 @@ main > section#iimg {
     background-size: cover;
     border-radius: 8px 0px 0px 8px;
 }
+
+footer {
+    color: #1F2937;
+    font-size: .8em;
+    text-align: center;
+}
+
+footer > p > a {
+    color: #10B981;
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    color: var(--cor-botao);
+}
